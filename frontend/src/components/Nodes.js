@@ -88,7 +88,8 @@ const Nodes = (props) => {
       })
   }, [])
 
-  const refreshSuggestions = useCallback(() => {
+  const refreshSuggestions = useCallback((e) => {
+    e.preventDefault()
 
     axios.get(`https://cors-anywhere.herokuapp.com/api.deezer.com/artist/${mainNode.id}/related`)
       .then(res => {
@@ -100,7 +101,8 @@ const Nodes = (props) => {
       .catch(err => console.log(err))
   }, [...secondaryNodes])
 
-  const refreshSuggestionsUp = useCallback(() => {
+  const refreshSuggestionsUp = useCallback((e) => {
+    e.preventDefault()
 
     axios.get(`https://cors-anywhere.herokuapp.com/api.deezer.com/artist/${mainNode.id}/related`)
       .then(res => {

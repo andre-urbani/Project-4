@@ -99,7 +99,7 @@ const Nodes = (props) => {
 
       })
       .catch(err => console.log(err))
-  }, [...secondaryNodes])
+  }, [{ ...secondaryNodes }])
 
   const refreshSuggestionsUp = useCallback((e) => {
     e.preventDefault()
@@ -112,7 +112,7 @@ const Nodes = (props) => {
 
       })
       .catch(err => console.log(err))
-  }, [...secondaryNodes])
+  }, [{ ...secondaryNodes }])
 
 
   useEffect(() => {

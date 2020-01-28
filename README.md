@@ -108,7 +108,7 @@ useEffect(() => {
       .catch(err => console.log(err))
   }, [])
 ```
-Additional API calls are made when the user clicks on any of the secondary nodes. This was acheived by adding an onClick event handler to these nodes.
+Additional API calls are made when the user clicks on any of the secondary nodes. This was acheived by adding an onClick event handler to each of these nodes.
 
 ```
 const handleClick = useCallback((e) => {

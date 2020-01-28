@@ -152,12 +152,12 @@ I enjoyed working in a group, as you can work together to overcome any issues yo
 
 ### Wins
 
-- Being able to create the 'node' page functionality exaclty as we had envisioned it at the planning stage
+- Being able to create the 'node' page functionality exactly as we had envisioned it at the planning stage
 - Building the back end using Python and Django, a language and framework we had only been introduced to a week prior to the beginning of the project. This encouraged us to learn as we built
 - Improving on my knowledge of React
 
 ### Challenges
 
-- Coming up with a solution to allow the user to go back to the previous artist they clicked on. Once I had figured this out the actual code was fairly straightforward
+- Coming up with a solution to allow the user to go back to the previous artist they clicked on. Once I had figured this out the coding process was fairly straightforward
 - The relatively new syntax used in Python and therefore adapting myself to this language
 - There were some challenging aspects of the CSS design, as it was difficult to implement exactly what I wanted in terms of animations of the nodes

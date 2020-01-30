@@ -144,7 +144,7 @@ const handleClick = useCallback((e) => {
 
 ## Result
 
-Overall I am extremely happy with the end product, and proud of my personal contribution towards the project. I beleive that the work I put into this project highlights my progression throughout my time on the software engineering course. 
+Overall I am extremely happy with the end product, and proud of my personal contribution towards the project. I believe that the work I put into this project highlights my progression throughout my time on the software engineering course. 
 
 I enjoyed working in a group, as you can work together to overcome any issues you may encounter. It also meant we could aim for a slightly more ambitious project in the time we had, which pushed my skills further. It was challenging working in a new language but I feel I became more comfortable with Python and Django over the duration of the project.
 
